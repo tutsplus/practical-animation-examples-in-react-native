@@ -86,15 +86,15 @@ export default class ExpandPage extends Component {
               <ScalingButton 
                 onPress={this.hideMenu.bind(this)} 
                 label="add people" 
-                styles={{ button: styles.button, label: styles.button_label }} />
+                style={{ button: styles.button, label: styles.button_label }} />
               <ScalingButton 
                 onPress={this.hideMenu.bind(this)} 
                 label="sign out" 
-                styles={{ button: styles.button, label: styles.button_label }} />
+                style={{ button: styles.button, label: styles.button_label }} />
               <ScalingButton 
                 onPress={this.hideMenu.bind(this)} 
                 label="cancel" 
-                styles={{ button: styles.button, label: styles.button_label }} />
+                style={{ button: styles.button, label: styles.button_label }} />
             </View>
           }
         </Animated.View>
